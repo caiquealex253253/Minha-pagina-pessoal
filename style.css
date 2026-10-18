@@ -1,0 +1,150 @@
+/* ESTILO CIANO NEON */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #07151F;
+    color: #E0F7FA;
+    line-height: 1.7;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #083344, #0E7490);
+    text-align: center;
+    padding: 55px 20px;
+    border-bottom: 2px solid #22D3EE;
+}
+
+header h1 {
+    color: #67E8F9;
+    font-size: 36px;
+    text-shadow: 0 0 12px #0891B2;
+}
+
+header p {
+    color: #CFFAFE;
+}
+
+/* Menu */
+nav {
+    background-color: #0B202D;
+    text-align: center;
+    padding: 18px;
+    border-bottom: 1px solid #155E75;
+}
+
+nav a {
+    display: inline-block;
+    color: #22D3EE;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px 12px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #22D3EE;
+}
+
+/* Conteúdo */
+main {
+    max-width: 900px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #0B202D;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+    border: 1px solid #155E75;
+    box-shadow: 0 4px 18px #00131D;
+    transition: border-color 0.3s;
+}
+
+section:hover {
+    border-color: #22D3EE;
+}
+
+section h2 {
+    color: #22D3EE;
+    margin-bottom: 15px;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+/* Lista */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+li::marker {
+    color: #22D3EE;
+}
+
+/* Foto */
+img {
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid #22D3EE;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #0891B255;
+}
+
+/* Links */
+a {
+    transition: 0.3s;
+}
+
+footer a {
+    color: #22D3EE;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0B202D;
+    text-align: center;
+    padding: 25px;
+    border-top: 2px solid #155E75;
+    color: #A5C4D0;
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    main {
+        margin: 20px auto;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
