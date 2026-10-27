@@ -114,6 +114,11 @@ img {
     display: block;
 }
 
+#contato form {
+    width:100%;
+    display: block;
+}
+    
 #contato fieldset {
     border: 1px solid #4f5b66;
     border-radius: 8px;
